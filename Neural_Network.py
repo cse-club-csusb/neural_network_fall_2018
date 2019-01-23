@@ -1,9 +1,8 @@
-_author = ["Sagar Patel", "Quimpie Tuada", "Eugene Kim", "Andrew Beechko",
-           "Adrian Insingo", "Garrett Gant", "Joseph Premdas", "Tyler Oviatt" ,"Jorge Martinez",
-           "Manuel Gavino", "Chris Magnuson", "Mike Chang Godinez", "Ethan Jones",
-           "Zion Jones", "Colin Morris", "Mario Victorino" ]
+_author = ["Sagar Patel", "Hugo " "Quimpie Tuada", "Eugene Kim","Joseph Premdas", "Mike Chang Godinez", "Mario Victorino" ]
 import numpy as np
 import pandas
+
+
 
 class Neural_Network:
     def __init__(self):
@@ -27,4 +26,5 @@ class Neural_Network:
     def saveWeights(self):
         print("nothing to return here")
     def predict(self):
+        print("The Predict Function is coming the future")
         
