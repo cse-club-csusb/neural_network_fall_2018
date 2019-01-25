@@ -1,8 +1,6 @@
-_author = ["Sagar Patel", "Hugo " "Quimpie Tuada", "Eugene Kim","Joseph Premdas", "Mike Chang Godinez", "Mario Victorino" ]
+_author = ["Sagar Patel", "Hugo Romero" "Quimpie Tuada", "Eugene Kim","Joseph Premdas", "Mike Chang Godinez", "Mario Victorino" ]
 import numpy as np
 import pandas
-#Hello
-
 
 class Neural_Network:
     def __init__(self):
