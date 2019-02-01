@@ -15,7 +15,7 @@ class Neural_Network:
     def sigmoid(self, s):
         if s >= 0:
             z = np.exp(-s)
-            return 1/(1 + s)
+            return 1/(1 + z)
         else:
             z = np.exp(s)
             return z/(1 + z)
