@@ -5,7 +5,7 @@ import pandas
 # this training data consist of three int RGB values
 training_data = ([233,100,199],[133,110,211],[201,155,99])
 # the expected results only changes the last two values by dropping the left digit
-expected_results = ([233,00,99],[133,10,11],[201,55,99])
+expected_results = ([233,00,99],[133,10,11],[201,55,9])
 
 
 
