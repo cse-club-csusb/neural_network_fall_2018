@@ -2,6 +2,13 @@ _author = ["Sagar Patel", "Hugo Romero" "Quimpie Tuada", "Eugene Kim","Joseph Pr
 import numpy as np
 import pandas
 
+# this training data consist of three int RGB values
+training_data = ([233,100,199],[133,110,211],[201,155,99])
+# the expected results only changes the last two values by dropping the left digit
+expected_results = ([233,00,99],[133,10,11],[201,55,99])
+
+
+
 # test
 class Neural_Network:
     def __init__(self):
