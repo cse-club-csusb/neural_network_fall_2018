@@ -12,7 +12,16 @@ training_data = np.array(([0.82,-0.22,0.55],[0.04,-0.14,0.65],[0.57,0.21,-0.23])
 # expected_results = np.array ([[233,00,99],[133,10,11],       [201,55,9]],dtype=float) original values, new values are below
 expected_results = np.array(([0.82,-1,0.55],[0.04,-0.92,-0.91],[0.57,-0.57,-0.93]),dtype=float)
 
+# seed set at 1 for consistancy
 np.random.seed(1)
+# below are the synapses that generate a random rgb value. Original and normalized batch below
+# syn0 = -255*np.random.random((9,5)) + 255
+# syn1 = -255*np.random.random((5,3)) + 255
+# syn2 = -255*np.random.random((5,3)) + 255
+syn0 = 2*np.random.random((9,5)) - 1
+syn1 = 2*np.random.random((5,3)) - 1
+syn2 = 2*np.random.random((5,3)) - 1
+
 
 
 # test
